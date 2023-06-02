@@ -1,0 +1,104 @@
+/* stylesheet */
+/* Dit was voor de backgroundcolor */
+body {
+    background-color: darkgoldenrod;
+}
+/* Dit was nodig omdat ik de website aan beide kanten wou beperken met 20% */
+.container{
+    margin: auto;
+    width: 80%;
+    background-color:#d9d9d9;
+
+
+}
+/* Dit was nodig om de inhoud van de pagina te beperken met 20% */
+.content{
+    padding: 20px 20px 20px 20px;
+}
+
+
+/* Dit was nodig om de footer vorm te geven */
+.footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #b3b3b3;
+    color: solid-black;
+}
+/* Dit was nodig voor mijn navigatie balk */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+/* Dit was nodig om de navigatie aan de rechterkant te zetten */
+.navbar-content {
+    float: right;
+    margin-right: 50px;
+}
+/* Dit was nodig om de hyperlinks in de navigatiebalk vorm te geven  */
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Dit was nodig om de inhoud van de uitklap menuitem vorm te geven  */
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+/* Dit was om een knop te zetten in de uitkladbare menuitem */
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+/* Dit was nodig om wanneer je met je muis over  de navigatie heen gaat dat de
+achtergrondkleur veranderd bij de hoofdmenu item, submenu item en knoppen in de hoofdmenu  */
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: grey;
+}
+/* Dit was nodig om de inhoud van de uitkladbare menuitem vorm te geven  */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+/* Dit was nodig om de hyperlinks in de uitkladbare menuitem vorm te geven  */
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+/* Dit was nodig om de hyperlinks in de uitkladbare menuitem een andere achtergrondkleur te geven als je erover heen gaat met je muis  */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+/* Dit was nodig om de submenu items vorm te geven  */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Dit was nodig om de logo aan de linkerkant te zetten    */
+.logodiv {
+    display: block;
+    float: left;
+}
+/* Dit was nodig om de breedte van de logo te bepalen */
+.logodiv img{
+    width: 200px;
+}
+
+
